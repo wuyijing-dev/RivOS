@@ -1,0 +1,10 @@
+idf_component_register(
+    SRC_DIRS 
+        "."
+        "APP"    
+        "APP/ui"
+    INCLUDE_DIRS 
+        "."
+        "APP"
+        "APP/ui"
+    )
