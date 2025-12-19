@@ -16,7 +16,7 @@ static void trap(Cpu *cpu, uint64_t scause, uint64_t sepc, uint64_t stval) {
 
 static inline uint64_t sext32(uint32_t v) {
   return (uint64_t)(int64_t)(int32_t)v;
-}
+} 
 
 void cpu_exec_one(struct Machine *m, Cpu *cpu) {
   uint64_t pc = cpu->pc;
